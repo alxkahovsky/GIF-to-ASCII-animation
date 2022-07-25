@@ -18,7 +18,7 @@ function currentSlide(n) {
 }
 /* Основная функция сладера */
 function showSlides(n) {
-    setTimeout(() => { plusSlide(); }, 200);
+    setTimeout(() => { plusSlide(); }, 100);
     var i;
     var slides = document.getElementsByClassName("item");
     var dots = document.getElementsByClassName("slider-dots_item");
