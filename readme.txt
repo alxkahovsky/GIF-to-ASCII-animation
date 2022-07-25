@@ -1,0 +1,4 @@
+Вдохновлялся этим https://github.com/aypro-droid/image-to-ascii
+Написал скрипт который создает для фреймов Gandalf_laugh_frames текстовые ASCII Файлы и сохраняте их
+На JS сделан слайдер, которые меняет кадры с заданной частотой
+Демо media/index.html

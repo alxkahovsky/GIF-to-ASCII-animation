@@ -1,0 +1,18 @@
+.slideText {
+    position: absolute;
+    color: black;
+    text-shadow: 5px 5px 5px black;
+    font-size: 6px;
+    font-weight: bold;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.header {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+
