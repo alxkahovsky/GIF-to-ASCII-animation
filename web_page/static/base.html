@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<h1>{{ title }} ASCII ANIMATION</h1>
+<h3>by Alex Kahovsky</h3>
+<div class="slider">
+    {% for ascii in ascii_list %}
+        <div class="item">
+        <div class="slideText"><pre>{{ ascii }}</pre></div>
+        </div>
+    {% endfor %}
+</div>
+<br>
+<script src="static/script.js"></script>
+</body>
+</html>
